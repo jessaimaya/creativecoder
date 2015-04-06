@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About Jessaí Maya
 image:
   feature: header.jpg
 comments: false
