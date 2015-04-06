@@ -13,6 +13,7 @@ creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5
  -->
 
 {% for post in paginator.posts %}
+{% unless post.draft %}
 <article class="hentry">
   <header>
     {% if post.image.feature %}
@@ -40,6 +41,7 @@ creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5
     {{ post.content }}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
+{% endunless %}
 {% endfor %}
 
 <div class="pagination">
