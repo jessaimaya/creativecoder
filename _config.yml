@@ -1,2 +1,20 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Creative Coder
+description:      Lugar donde el arte y el código se encuentran.
+url:              "http://creativecoder.me"
+owner:
+        name:           Jessaí Maya
+        bio:           "Ethics enthusiast, creative coder trying to spread the word of freedom, art and code."
+        email:          maya.jessai@gmail.com
+        twitter:        jessaimaya
+        github:         jessaimaya
+        google_plus:    +JessMaya
+
+google_analytics:       UA-42585072-2
+
+sass:
+        sass_dir: _sass
+        style:    compressed
+
+permalink:        /:categories/:title/
+
+paginate: 10
