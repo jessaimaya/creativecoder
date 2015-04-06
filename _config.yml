@@ -18,4 +18,6 @@ sass:
 
 permalink:        /:categories/:title/
 
-paginate: 10
+paginate: 5
+
+background:     /images/header.jpg
