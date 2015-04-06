@@ -3,6 +3,7 @@ layout: post
 title: "Testing Readability with a Bunch of Text"
 description: "A ton of text to test readability."
 tags: [sample post, readability, test, intro]
+draft: true
 image:
   feature: abstract-6.jpg
   credit: dargadgetz
