@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://creativecoder.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://creativecoder.me" />
-<updated>2015-04-06T17:03:57-05:00</updated>
+<updated>2015-04-06T22:22:23+00:00</updated>
 <id>http://creativecoder.me/</id>
 <author>
   <name>Jessaí Maya</name>
@@ -17,8 +17,8 @@
   <title type="html"><![CDATA[Post with a Background Image]]></title>
  <link rel="alternate" type="text/html" href="http://creativecoder.me/background-image/" />
   <id>http://creativecoder.me/background-image</id>
-  <published>2013-10-26T00:00:00-05:00</published>
-  <updated>2013-10-26T00:00:00-05:00</updated>
+  <published>2013-10-26T00:00:00+00:00</published>
+  <updated>2013-10-26T00:00:00+00:00</updated>
   <author>
     <name>Jessaí Maya</name>
     <uri>http://creativecoder.me</uri>
@@ -46,7 +46,7 @@
  <link rel="alternate" type="text/html" href="http://creativecoder.me/code-highlighting-post/" />
   <id>http://creativecoder.me/code-highlighting-post</id>
   <updated>2014-12-23T00:00:00-00:00</updated>
-  <published>2013-08-16T00:00:00-05:00</published>
+  <published>2013-08-16T00:00:00+00:00</published>
   
   <author>
     <name>Jessaí Maya</name>
@@ -132,14 +132,14 @@
       @site = site
       @base = base
       @dir = dir
-      @name = &#39;index.html&#39;
+      @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;amp;#8211;'
+      self.data['title'] = &quot;#{tag_title_prefix}#{tag}&quot;
+      self.data['description'] = &quot;An archive of posts tagged #{tag}.&quot;
     end
   end
 end
@@ -168,8 +168,8 @@ end
   <title type="html"><![CDATA[Sample Link Post]]></title>
  <link rel="alternate" type="text/html" href="http://mademistakes.com" />
   <id>http://creativecoder.me/sample-link-post</id>
-  <published>2013-08-12T00:00:00-05:00</published>
-  <updated>2013-08-12T00:00:00-05:00</updated>
+  <published>2013-08-12T00:00:00+00:00</published>
+  <updated>2013-08-12T00:00:00+00:00</updated>
   <author>
     <name>Jessaí Maya</name>
     <uri>http://creativecoder.me</uri>
@@ -187,8 +187,8 @@ end
   <title type="html"><![CDATA[A Post with a Video]]></title>
  <link rel="alternate" type="text/html" href="http://creativecoder.me/video-post/" />
   <id>http://creativecoder.me/video-post</id>
-  <published>2013-06-25T00:00:00-05:00</published>
-  <updated>2013-06-25T00:00:00-05:00</updated>
+  <published>2013-06-25T00:00:00+00:00</published>
+  <updated>2013-06-25T00:00:00+00:00</updated>
   <author>
     <name>Jessaí Maya</name>
     <uri>http://creativecoder.me</uri>
@@ -213,7 +213,7 @@ end
  <link rel="alternate" type="text/html" href="http://creativecoder.me/readability-feature-post/" />
   <id>http://creativecoder.me/readability-feature-post</id>
   <updated>2013-06-30T00:00:00-00:00</updated>
-  <published>2013-05-23T00:00:00-05:00</published>
+  <published>2013-05-23T00:00:00+00:00</published>
   
   <author>
     <name>Jessaí Maya</name>
@@ -271,8 +271,8 @@ end
   <title type="html"><![CDATA[A Post with Images]]></title>
  <link rel="alternate" type="text/html" href="http://creativecoder.me/sample-post-images/" />
   <id>http://creativecoder.me/sample-post-images</id>
-  <published>2013-05-22T00:00:00-05:00</published>
-  <updated>2013-05-22T00:00:00-05:00</updated>
+  <published>2013-05-22T00:00:00+00:00</published>
+  <updated>2013-05-22T00:00:00+00:00</updated>
   <author>
     <name>Jessaí Maya</name>
     <uri>http://creativecoder.me</uri>
@@ -342,8 +342,8 @@ end
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
  <link rel="alternate" type="text/html" href="http://creativecoder.me/readability-post/" />
   <id>http://creativecoder.me/readability-post</id>
-  <published>2012-05-22T00:00:00-05:00</published>
-  <updated>2012-05-22T00:00:00-05:00</updated>
+  <published>2012-05-22T00:00:00+00:00</published>
+  <updated>2012-05-22T00:00:00+00:00</updated>
   <author>
     <name>Jessaí Maya</name>
     <uri>http://creativecoder.me</uri>
@@ -401,7 +401,7 @@ end
  <link rel="alternate" type="text/html" href="http://creativecoder.me/sample-post/" />
   <id>http://creativecoder.me/sample-post</id>
   <updated>2014-12-24T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00-06:00</published>
+  <published>2011-03-10T00:00:00+00:00</published>
   
   <author>
     <name>Jessaí Maya</name>
@@ -518,7 +518,7 @@ end
 &lt;p&gt;Non Pygments code example&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn&#39;t it?&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
