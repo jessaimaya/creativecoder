@@ -63,8 +63,8 @@ var sketch = function(){
         
         P.setup = function(){
             var w = $(".wrapper").width();
-            P.size(w,(w/2.2));
-            var rgbBck = hexToRgb("#"+selectColor[(selectColor.length)-1]);
+            P.size(659, 325);
+            
             P.background(0);
             for (var  i = 0; i < selectColor.length; i++){
                 var prev = "#"+selectColor[i];
