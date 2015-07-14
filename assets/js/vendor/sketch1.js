@@ -22,8 +22,9 @@ var sketch = function(){
                   { numResults: 50 },
                   function(allPalettes) {
                       pallete = allPalettes;
+                      init();
                   }
-                 );
+        );
         
     }();
 
@@ -63,7 +64,7 @@ var sketch = function(){
         
         P.setup = function(){
             var w = $(".wrapper").width();
-            P.size(659, 325);
+            P.size(w, w/1.8);
             
             P.background(0);
             for (var  i = 0; i < selectColor.length; i++){
