@@ -3,7 +3,7 @@ var sketch = function(){
     
     var getColores = function(){
         var url = "http://www.colourlovers.com/api/palettes/top?format=json";
-        
+        /*
         $.ajax({
             url: url,
             type: 'GET',
@@ -16,6 +16,15 @@ var sketch = function(){
                 pallete = err;
             }
         });
+        */
+
+        $.getJSON("http://www.colourlovers.com/api/palettes/top?jsonCallback=?",
+                  { numResults: 50 },
+                  function(allPalettes) {
+                      pallete = allPalettes;
+                  }
+                 );
+        
     }();
 
 
