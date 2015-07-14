@@ -4,12 +4,43 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://creativecoder.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://creativecoder.me" />
-<updated>2015-07-11T18:47:02+00:00</updated>
+<updated>2015-07-14T05:56:54+00:00</updated>
 <id>http://creativecoder.me/</id>
 <author>
   <name>Jessaí Maya</name>
   <uri>http://creativecoder.me/</uri>
   <email>maya.jessai@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Color Walker I]]></title>
+ <link rel="alternate" type="text/html" href="http://creativecoder.me/color-walker/" />
+  <id>http://creativecoder.me/color-walker</id>
+  <updated>2015-07-13T00:00:00-00:00</updated>
+  <published>2015-07-13T00:00:00+00:00</published>
+  
+  <author>
+    <name>Jessaí Maya</name>
+    <uri>http://creativecoder.me</uri>
+    <email>maya.jessai@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;El siguiente sketch es una implementación de uno de mis algoritmos favoritos &lt;a href=&quot;https://en.wikipedia.org/wiki/Random_walk&quot;&gt;&lt;strong&gt;Random Walk&lt;/strong&gt;&lt;/a&gt; en processing.js. Para hacerlo más interesante usé el API de &lt;a href=&quot;http://www.colourlovers.com/&quot;&gt;colourlovers.com&lt;/a&gt; para traer paletas de colores. Teniendo la respuesta del API selecciono una aleatoriamente y dependiendo del número de colores que contenga se crea un &lt;em&gt;walker&lt;/em&gt; con la propiedad de ese color.&lt;/p&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+&lt;canvas id=&quot;sketch1&quot;&gt;&lt;/canvas&gt;
+
+&lt;div&gt;
+&lt;a href=&quot;#&quot; title=&quot;Agregar&quot; id=&quot;btnReset&quot; class=&quot;btn&quot;&gt;Reset&lt;/a&gt;
+&lt;a href=&quot;#&quot; title=&quot;Agregar&quot; id=&quot;newColor&quot; class=&quot;btn&quot;&gt;Otros colores&lt;/a&gt;
+&lt;a href=&quot;#&quot; title=&quot;Agregar&quot; id=&quot;saveImage&quot; class=&quot;btn&quot;&gt;Guardar&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://creativecoder.me/color-walker/&quot;&gt;Color Walker I&lt;/a&gt; was originally published by Jessaí Maya at &lt;a href=&quot;http://creativecoder.me&quot;&gt;Creative Coder&lt;/a&gt; on July 13, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 </feed>
