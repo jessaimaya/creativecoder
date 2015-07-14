@@ -27,5 +27,9 @@ El siguiente sketch es una implementación de uno de mis algoritmos favoritos [*
 <a href="#" title="Agregar" id="newColor" class="btn">Otros colores</a>
 <a href="#" title="Agregar" id="saveImage" class="btn">Guardar</a>
 </div>
-</div> 
+</div>
+
+Con el botón **_Reset_ ** se limpia la pantalla y comienza a dibujarse.
+Para cambiar de paleta de colores se tiene que presionar ** _Otros colores_ **
+El botón ** _Guardar_ ** se renderea la imagen y se descarga automáticamente.
 

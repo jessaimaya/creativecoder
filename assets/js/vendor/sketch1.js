@@ -53,7 +53,8 @@ var sketch = function(){
         changeColors();
         
         P.setup = function(){
-            P.size(800,450);
+            var w = $(".wrapper").width();
+            P.size(w,(w/2.2));
             var rgbBck = hexToRgb("#"+selectColor[(selectColor.length)-1]);
             P.background(0);
             for (var  i = 0; i < selectColor.length; i++){
