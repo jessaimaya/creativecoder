@@ -7,6 +7,7 @@ var sketch = function(){
         $.ajax({
             url: url,
             type: 'GET',
+            contentType: "jsonp",
             dataType: 'jsonp',
             crossDomain: true,
             success: function (data) {
