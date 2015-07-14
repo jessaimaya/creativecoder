@@ -29,7 +29,9 @@ El siguiente sketch es una implementación de uno de mis algoritmos favoritos [*
 </div>
 </div>
 
-Con el botón **_Reset_ ** se limpia la pantalla y comienza a dibujarse.
-Para cambiar de paleta de colores se tiene que presionar ** _Otros colores_ **
-El botón ** _Guardar_ ** se renderea la imagen y se descarga automáticamente.
+Con el botón **_Reset_** se limpia la pantalla y comienza a dibujarse.
+
+Para cambiar de paleta de colores se tiene que presionar **_Otros colores_**
+
+El botón **_Guardar_** se renderea la imagen y se descarga automáticamente.
 
