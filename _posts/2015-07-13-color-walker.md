@@ -3,14 +3,13 @@ layout: post
 title: Color Walker I
 description: "Algoritmo random walker conectado al API de colourlovers.com"
 modified: 2015-07-13
-tags: [sample post]
+tags: [random walker, processing, canvas, API, javascript]
 draft: true
 image:
   feature: colorWalker.jpg
   credit: jessaí maya
   creditlink: creativecoder.me/images/colorWalker.jpg
 custom_js:
-- jquery.min
 - processing
 - sketch1
 ---
