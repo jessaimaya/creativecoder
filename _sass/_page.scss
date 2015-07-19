@@ -247,6 +247,8 @@ header .entry-meta {
 	.entry-meta {
 		margin: 50px 30px 30px;
 		text-align: center;
+                &.m0{
+                    marign:0;}
 	}
 }
 .entry-tags {
@@ -469,4 +471,9 @@ header .entry-meta {
 }
 #goog-wm-sb {
 	@extend .btn;
+}
+
+.entry-title{
+    &.m0{
+        margin:0;}
 }
