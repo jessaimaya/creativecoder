@@ -41,6 +41,9 @@ body {
 		font-weight: 700;
 		@include font-rem(32);
 		color: lighten($base-color,20);
+                &.m0 {
+                    margin:0;
+                }
 		@media #{$medium} {
 			@include font-rem(48);
 		}
@@ -80,6 +83,8 @@ body {
 		font-weight: 700;
 		margin: 10px 60px;
 		color: $white;
+                &.m0{
+                    margin:0;}
 		text-shadow: 1px 1px 4px rgba($base-color,0.6);
 		a {
 			color: $white;
@@ -200,7 +205,10 @@ header .entry-meta {
 #post,
 #page {
 	.entry-content {
-		margin: 40px 2px 20px 2px;
+	    margin: 40px 2px 20px 2px;
+            &.mt0{
+                margin-top:0;
+            }
 		padding: 10px 15px;
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
